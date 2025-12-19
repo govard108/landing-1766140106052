@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const isHidden = mobileMenu.classList.contains('hidden');
         if (isHidden) {
             mobileMenu.classList.remove('hidden');
-            // Animate Icon if needed, currently using static Lucide icon
         } else {
             mobileMenu.classList.add('hidden');
         }

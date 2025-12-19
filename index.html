@@ -50,8 +50,8 @@
         </div>
 
         <!-- Mobile Menu Panel -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-stone-100 absolute w-full">
-            <div class="px-4 pt-2 pb-6 space-y-2 shadow-lg">
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-stone-100 absolute w-full shadow-xl">
+            <div class="px-4 pt-2 pb-6 space-y-2">
                 <a href="#services" class="block px-3 py-3 text-stone-600 hover:bg-rose-50 hover:text-rose-500 rounded-md text-base font-medium">Услуги</a>
                 <a href="#about" class="block px-3 py-3 text-stone-600 hover:bg-rose-50 hover:text-rose-500 rounded-md text-base font-medium">О нас</a>
                 <a href="#masters" class="block px-3 py-3 text-stone-600 hover:bg-rose-50 hover:text-rose-500 rounded-md text-base font-medium">Мастера</a>
@@ -70,57 +70,29 @@
     <section class="relative h-screen flex items-center justify-center overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="https://placehold.co/1920x1080/DAC3B3/333333?text=Relaxing+Salon+Interior" alt="Salon Interior" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-stone-900/30"></div>
-            <div class="absolute inset-0 bg-gradient-to-t from-stone-50 via-transparent to-transparent"></div>
+            <!-- Unsplash Image: Luxury Salon Interior -->
+            <img src="https://images.unsplash.com/photo-1600948836101-f60c2710743f?auto=format&fit=crop&w=1920&q=80" alt="Salon Interior" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-stone-900/40"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent"></div>
         </div>
 
         <div class="relative z-10 text-center px-4 max-w-4xl mx-auto mt-16">
-            <span class="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-semibold tracking-widest uppercase mb-6 border border-white/30">
+            <span class="inline-block py-1 px-3 rounded-full bg-white/10 backdrop-blur-md text-white text-sm font-semibold tracking-widest uppercase mb-6 border border-white/20">
                 Premium Beauty Lounge
             </span>
             <h1 class="font-serif text-5xl md:text-7xl lg:text-8xl text-white font-bold mb-6 leading-tight drop-shadow-lg">
-                Искусство <br/><span class="text-rose-200 italic">быть собой</span>
+                Искусство <br/><span class="text-rose-300 italic">быть собой</span>
             </h1>
-            <p class="text-lg md:text-xl text-stone-100 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-                Погрузитесь в атмосферу спокойствия и роскоши. Мы создаем красоту, которая вдохновляет и дарит уверенность.
+            <p class="text-lg md:text-xl text-stone-100 mb-10 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md">
+                Погрузитесь в атмосферу спокойствия и роскоши. Мы создаем красоту, которая вдохновляет и дарит уверенность каждый день.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="#services" class="px-8 py-4 bg-white text-stone-800 font-bold rounded-full hover:bg-rose-100 transition-all transform hover:scale-105 shadow-xl">
+                <a href="#services" class="px-8 py-4 bg-white text-stone-900 font-bold rounded-full hover:bg-rose-50 transition-all transform hover:scale-105 shadow-xl">
                     Наши услуги
                 </a>
-                <a href="#contact" class="px-8 py-4 bg-transparent border border-white text-white font-bold rounded-full hover:bg-white/10 transition-all backdrop-blur-sm">
-                    Связаться с нами
+                <a href="#booking" class="px-8 py-4 bg-transparent border border-white text-white font-bold rounded-full hover:bg-white/10 transition-all backdrop-blur-sm">
+                    Записаться
                 </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features / Benefits -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-3 gap-12 text-center">
-                <div class="p-6">
-                    <div class="w-16 h-16 bg-rose-50 rounded-full flex items-center justify-center mx-auto mb-6 text-rose-400">
-                        <i data-lucide="sparkles" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="font-serif text-2xl font-bold mb-4 text-stone-800" style="color: #292524; background-color: #141414; font-size: 24px; fontFamily: ui-serif, Georgia, Cambria, ; color: #f54114; background-color: #ca3f3f; font-size: 24px; fontFamily: ui-serif, Georgia, Cambria, ; color: #fa3200; background-color: #000000; font-size: 24px; fontFamily: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif"Times New Roman", Times, serif"Times New Roman", Times, serif">Премиум Материалы</h3>
-                    <p class="text-stone-600">Мы используем только сертифицированную косметику мировых брендов для вашей безопасности.</p>
-                </div>
-                <div class="p-6">
-                    <div class="w-16 h-16 bg-rose-50 rounded-full flex items-center justify-center mx-auto mb-6 text-rose-400">
-                        <i data-lucide="award" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="font-serif text-2xl font-bold mb-4 text-stone-800">Мастера-Эксперты</h3>
-                    <p class="text-stone-600">Команда профессионалов с многолетним опытом, постоянно повышающая квалификацию.</p>
-                </div>
-                <div class="p-6">
-                    <div class="w-16 h-16 bg-rose-50 rounded-full flex items-center justify-center mx-auto mb-6 text-rose-400">
-                        <i data-lucide="heart" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="font-serif text-2xl font-bold mb-4 text-stone-800">Уютная Атмосфера</h3>
-                    <p class="text-stone-600">Расслабляющая музыка, ароматный кофе и индивидуальный подход к каждому гостю.</p>
-                </div>
             </div>
         </div>
     </section>
@@ -129,176 +101,180 @@
     <section id="services" class="py-24 bg-stone-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <span class="text-rose-500 font-bold tracking-wider uppercase text-sm">Наше меню</span>
-                <h2 class="font-serif text-4xl md:text-5xl font-bold text-stone-800 mt-2">Популярные Услуги</h2>
+                <h2 class="font-serif text-4xl md:text-5xl text-stone-800 mb-4">Наши Услуги</h2>
+                <div class="w-24 h-1 bg-rose-400 mx-auto rounded-full mb-6"></div>
+                <p class="text-stone-600 max-w-2xl mx-auto text-lg">
+                    Полный спектр процедур для вашей красоты и здоровья от ведущих мастеров.
+                </p>
             </div>
 
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Service Card 1 -->
-                <div class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 border border-stone-200 hover:border-rose-300">
-                    <div class="h-80 overflow-hidden relative">
-                        <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&h=600&fit=crop" alt="Стрижки" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent group-hover:from-black/20 transition-all duration-500"></div>
-                    </div>
-                    <div class="p-8">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="font-serif text-2xl font-bold text-stone-800">Парикмахерский зал</h3>
-                            <i data-lucide="scissors" class="w-6 h-6 text-rose-400"></i>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service Card 1: Hair -->
+                <div class="group relative h-96 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=600&q=80" alt="Парикмахерский зал" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-6 text-white transform translate-y-2 transition-transform duration-300 group-hover:translate-y-0">
+                        <div class="mb-2 p-2 bg-white/20 backdrop-blur-sm w-fit rounded-lg">
+                            <i data-lucide="scissors" class="w-6 h-6 text-white"></i>
                         </div>
-                        <ul class="space-y-3 mb-6 text-stone-600">
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Стрижка женская</span> <span class="font-semibold">от 2500 ₽</span></li>
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Окрашивание</span> <span class="font-semibold">от 5000 ₽</span></li>
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Укладка</span> <span class="font-semibold">от 1500 ₽</span></li>
-                        </ul>
-                        <a href="#booking" class="inline-flex items-center text-rose-500 font-semibold hover:text-rose-600">
-                            Подробнее <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
-                        </a>
+                        <h3 class="text-2xl font-serif font-bold mb-2">Стрижки и Укладки</h3>
+                        <p class="text-stone-200 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Авторские стрижки, сложные окрашивания и уход за волосами.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Service Card 2 -->
-                <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="https://placehold.co/600x400/F5E6E8/555?text=Nails" alt="Маникюр" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
-                    </div>
-                    <div class="p-8">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="font-serif text-2xl font-bold text-stone-800">Ногтевой сервис</h3>
-                            <i data-lucide="gem" class="w-6 h-6 text-rose-400"></i>
+                <!-- Service Card 2: Nails -->
+                <div class="group relative h-96 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=80" alt="Ногтевой сервис" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-6 text-white transform translate-y-2 transition-transform duration-300 group-hover:translate-y-0">
+                        <div class="mb-2 p-2 bg-white/20 backdrop-blur-sm w-fit rounded-lg">
+                            <i data-lucide="gem" class="w-6 h-6 text-white"></i>
                         </div>
-                        <ul class="space-y-3 mb-6 text-stone-600">
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Маникюр + покрытие</span> <span class="font-semibold">2200 ₽</span></li>
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span style="color: #ff000d; background-color: #000000; font-size: 16px; fontFamily: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"">Педикюр SMART</span> <span class="font-semibold">2800 ₽</span></li>
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Наращивание</span> <span class="font-semibold">от 3500 ₽</span></li>
-                        </ul>
-                        <a href="#booking" class="inline-flex items-center text-rose-500 font-semibold hover:text-rose-600">
-                            Подробнее <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
-                        </a>
+                        <h3 class="text-2xl font-serif font-bold mb-2">Маникюр</h3>
+                        <p class="text-stone-200 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Аппаратный и комбинированный маникюр, дизайн любой сложности.
+                        </p>
                     </div>
                 </div>
 
-                <!-- Service Card 3 -->
-                <div class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
-                    <div class="h-64 overflow-hidden relative">
-                        <img src="https://placehold.co/600x400/DDD0C8/555?text=Cosmetology" alt="Косметология" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
-                    </div>
-                    <div class="p-8">
-                        <div class="flex justify-between items-start mb-4">
-                            <h3 class="font-serif text-2xl font-bold text-stone-800">Косметология</h3>
-                            <i data-lucide="sparkles" class="w-6 h-6 text-rose-400"></i>
+                <!-- Service Card 3: Face -->
+                <div class="group relative h-96 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&q=80" alt="Косметология" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-6 text-white transform translate-y-2 transition-transform duration-300 group-hover:translate-y-0">
+                        <div class="mb-2 p-2 bg-white/20 backdrop-blur-sm w-fit rounded-lg">
+                            <i data-lucide="sparkles" class="w-6 h-6 text-white"></i>
                         </div>
-                        <ul class="space-y-3 mb-6 text-stone-600">
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Чистка лица</span> <span class="font-semibold">3000 ₽</span></li>
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Массаж лица</span> <span class="font-semibold">2500 ₽</span></li>
-                            <li class="flex justify-between border-b border-stone-100 pb-2"><span>Пилинг</span> <span class="font-semibold">от 3000 ₽</span></li>
-                        </ul>
-                        <a href="#booking" class="inline-flex items-center text-rose-500 font-semibold hover:text-rose-600">
-                            Подробнее <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
-                        </a>
+                        <h3 class="text-2xl font-serif font-bold mb-2">Косметология</h3>
+                        <p class="text-stone-200 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Уходовые процедуры, чистки, пилинги и массаж лица.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service Card 4: Body -->
+                <div class="group relative h-96 rounded-2xl overflow-hidden shadow-lg cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=600&q=80" alt="SPA и Массаж" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-stone-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-6 text-white transform translate-y-2 transition-transform duration-300 group-hover:translate-y-0">
+                        <div class="mb-2 p-2 bg-white/20 backdrop-blur-sm w-fit rounded-lg">
+                            <i data-lucide="heart" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-serif font-bold mb-2">SPA и Массаж</h3>
+                        <p class="text-stone-200 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0">
+                            Расслабляющие программы для восстановления сил и энергии.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section with Image -->
+    <!-- About Section -->
     <section id="about" class="py-24 bg-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col lg:flex-row items-center gap-16">
                 <div class="lg:w-1/2 relative">
-                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-rose-100 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
-                    <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-stone-200 rounded-full mix-blend-multiply filter blur-xl animate-pulse delay-700"></div>
-                    <img src="https://placehold.co/800x1000/F0EFED/333?text=Elegant+Salon+Vibes" alt="Salon Atmosphere" class="relative rounded-lg shadow-2xl w-full object-cover z-10">
+                    <!-- Unsplash Image: Elegant Detail -->
+                    <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=800&q=80" alt="Интерьер салона" class="w-full h-auto">
+                    </div>
+                    <!-- Decorative Elements -->
+                    <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-rose-100 rounded-full z-0"></div>
+                    <div class="absolute -top-6 -left-6 w-48 h-48 border-2 border-rose-200 rounded-full z-0"></div>
                 </div>
+                
                 <div class="lg:w-1/2">
-                    <h2 class="font-serif text-4xl lg:text-5xl font-bold text-stone-800 mb-6">Ваш личный оазис красоты и релакса</h2>
-                    <p class="text-lg text-stone-600 mb-6 leading-relaxed">
-                        Aura — это больше, чем просто салон красоты. Это место, где время замедляется. Мы создали пространство, в котором каждая деталь продумана для вашего комфорта. 
+                    <h2 class="font-serif text-4xl text-stone-800 mb-6">Философия <span class="text-rose-400 italic">естественной</span> красоты</h2>
+                    <p class="text-stone-600 mb-6 leading-relaxed">
+                        Aura — это не просто салон красоты, это пространство, где время замедляется. Мы верим, что истинная красота начинается с внутренней гармонии и любви к себе.
                     </p>
-                    <p class="text-lg text-stone-600 mb-8 leading-relaxed">
-                        Наши мастера не просто выполняют процедуры — они создают образы, которые подчеркивают вашу индивидуальность и стиль жизни. Мы верим, что настоящая красота начинается с заботы о себе.
+                    <p class="text-stone-600 mb-8 leading-relaxed">
+                        Наши мастера — это художники своего дела, которые постоянно совершенствуют свои навыки. Мы используем только премиальную косметику брендов Davines, Luxio и Ultraceuticals, чтобы гарантировать безупречный результат и здоровье ваших волос и кожи.
                     </p>
                     
-                    <div class="grid grid-cols-2 gap-6 mb-8">
-                        <div>
-                            <p class="text-4xl font-serif font-bold text-rose-400">5+</p>
-                            <p class="text-stone-500 font-medium">Лет опыта</p>
-                        </div>
-                        <div>
-                            <p class="text-4xl font-serif font-bold text-rose-400">10k+</p>
-                            <p class="text-stone-500 font-medium">Счастливых клиентов</p>
-                        </div>
-                    </div>
-
-                    <a href="#masters" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-stone-800 text-stone-800 font-bold rounded-full hover:bg-stone-800 hover:text-white transition-colors">
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-rose-500">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span class="text-stone-700">Премиальная косметика и оборудование</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-rose-500">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span class="text-stone-700">Стерилизация инструментов по нормам СанПиН</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="w-6 h-6 rounded-full bg-rose-100 flex items-center justify-center text-rose-500">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <span class="text-stone-700">Уютная лаунж-зона с кофе и угощениями</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="#masters" class="inline-flex items-center gap-2 text-rose-500 font-semibold hover:text-rose-600 transition-colors">
                         Познакомиться с командой
+                        <i data-lucide="arrow-right" class="w-5 h-5"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <section id="reviews" class="py-24 bg-rose-50">
+    <!-- Masters Section -->
+    <section id="masters" class="py-24 bg-stone-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="font-serif text-4xl font-bold text-stone-800">Что говорят наши клиенты</h2>
+                <h2 class="font-serif text-4xl text-stone-800 mb-4">Наши Эксперты</h2>
+                <div class="w-24 h-1 bg-rose-400 mx-auto rounded-full"></div>
             </div>
             
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Review 1 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm">
-                    <div class="flex text-yellow-400 mb-4">
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Master 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                    <div class="h-80 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=600&h=700&q=80" alt="Мастер" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
                     </div>
-                    <p class="text-stone-600 mb-6 italic">"Потрясающее место! Мастер Елена сотворила чудо с моими волосами. Атмосфера очень уютная, вкусный кофе. Обязательно вернусь снова."</p>
-                    <div class="flex items-center gap-4">
-                        <img src="https://placehold.co/100x100/EEE/333?text=A" alt="Avatar" class="w-12 h-12 rounded-full object-cover">
-                        <div>
-                            <h4 class="font-bold text-stone-800">Анна Смирнова</h4>
-                            <p class="text-sm text-stone-500">Постоянный клиент</p>
+                    <div class="p-6 text-center">
+                        <h3 class="font-serif text-2xl font-bold text-stone-800 mb-1">Елена Волкова</h3>
+                        <p class="text-rose-500 font-medium mb-3">Топ-стилист</p>
+                        <p class="text-stone-500 text-sm mb-4">Эксперт по сложным окрашиваниям и стрижкам. Опыт работы 12 лет.</p>
+                        <div class="flex justify-center gap-4 text-stone-400">
+                            <a href="#" class="hover:text-rose-500"><i data-lucide="instagram" class="w-5 h-5"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Review 2 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm">
-                    <div class="flex text-yellow-400 mb-4">
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <!-- Master 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                    <div class="h-80 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1595152772835-219638b6a8bd?auto=format&fit=crop&w=600&h=700&q=80" alt="Мастер" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
                     </div>
-                    <p class="text-stone-600 mb-6 italic">"Лучший маникюр в городе. Все инструменты стерильны, огромный выбор цветов. Девочки на ресепшн очень приветливые."</p>
-                    <div class="flex items-center gap-4">
-                        <img src="https://placehold.co/100x100/DDD/333?text=V" alt="Avatar" class="w-12 h-12 rounded-full object-cover">
-                        <div>
-                            <h4 class="font-bold text-stone-800">Виктория Л.</h4>
-                            <p class="text-sm text-stone-500">Клиент</p>
+                    <div class="p-6 text-center">
+                        <h3 class="font-serif text-2xl font-bold text-stone-800 mb-1">Марина Ким</h3>
+                        <p class="text-rose-500 font-medium mb-3">Врач-косметолог</p>
+                        <p class="text-stone-500 text-sm mb-4">Специалист по инъекционной и эстетической косметологии.</p>
+                        <div class="flex justify-center gap-4 text-stone-400">
+                            <a href="#" class="hover:text-rose-500"><i data-lucide="instagram" class="w-5 h-5"></i></a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Review 3 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm">
-                    <div class="flex text-yellow-400 mb-4">
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
-                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                <!-- Master 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 group">
+                    <div class="h-80 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=600&h=700&q=80" alt="Мастер" class="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105">
                     </div>
-                    <p class="text-stone-600 mb-6 italic">"Хожу сюда на массаж лица. Эффект виден уже после первого сеанса. Очень расслабляет после рабочей недели."</p>
-                    <div class="flex items-center gap-4">
-                        <img src="https://placehold.co/100x100/CCC/333?text=M" alt="Avatar" class="w-12 h-12 rounded-full object-cover">
-                        <div>
-                            <h4 class="font-bold text-stone-800">Марина К.</h4>
-                            <p class="text-sm text-stone-500">Клиент</p>
+                    <div class="p-6 text-center">
+                        <h3 class="font-serif text-2xl font-bold text-stone-800 mb-1">Анна Морозова</h3>
+                        <p class="text-rose-500 font-medium mb-3">Nail-мастер</p>
+                        <p class="text-stone-500 text-sm mb-4">Создает идеальный маникюр и уникальный дизайн ногтей.</p>
+                        <div class="flex justify-center gap-4 text-stone-400">
+                            <a href="#" class="hover:text-rose-500"><i data-lucide="instagram" class="w-5 h-5"></i></a>
                         </div>
                     </div>
                 </div>
@@ -306,86 +282,160 @@
         </div>
     </section>
 
-    <!-- Booking / Contact Section -->
-    <section id="contact" class="py-24 bg-stone-900 text-white relative overflow-hidden">
-         <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-         
-         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-16">
-                <!-- Contact Info -->
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-4xl text-stone-800 mb-4">Отзывы Клиентов</h2>
+                <div class="w-24 h-1 bg-rose-400 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="bg-stone-50 p-8 rounded-2xl relative">
+                    <i data-lucide="quote" class="w-10 h-10 text-rose-200 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-4 mb-6">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150&q=80" alt="Client" class="w-14 h-14 rounded-full object-cover border-2 border-white shadow-md">
+                        <div>
+                            <h4 class="font-bold text-stone-800">Екатерина С.</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-stone-600 italic">"Лучший салон в городе! Делала сложное окрашивание у Елены — результат превзошел все ожидания. Цвет получился живым и натуральным."</p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-stone-50 p-8 rounded-2xl relative">
+                    <i data-lucide="quote" class="w-10 h-10 text-rose-200 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-4 mb-6">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80" alt="Client" class="w-14 h-14 rounded-full object-cover border-2 border-white shadow-md">
+                        <div>
+                            <h4 class="font-bold text-stone-800">Ольга М.</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-stone-600 italic">"Потрясающая атмосфера и сервис. Косметолог Марина — настоящий профессионал, кожа сияет после процедуры ухода."</p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-stone-50 p-8 rounded-2xl relative">
+                    <i data-lucide="quote" class="w-10 h-10 text-rose-200 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-4 mb-6">
+                        <img src="https://images.unsplash.com/photo-1554151228-14d9def656ec?auto=format&fit=crop&w=150&h=150&q=80" alt="Client" class="w-14 h-14 rounded-full object-cover border-2 border-white shadow-md">
+                        <div>
+                            <h4 class="font-bold text-stone-800">Алина П.</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-stone-600 italic">"Очень уютное место. Маникюр всегда идеальный, держится долго. Отдельное спасибо администраторам за вкусный кофе!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section id="booking" class="py-24 bg-stone-900 text-white relative overflow-hidden">
+        <!-- Background Decor -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-stone-800 opacity-20 transform -skew-x-12"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div>
-                    <h2 class="font-serif text-4xl font-bold mb-6">Запишитесь на визит</h2>
-                    <p class="text-stone-300 mb-10 text-lg">
-                        Оставьте заявку, и наш администратор свяжется с вами в течение 15 минут для подтверждения времени.
+                    <h2 class="font-serif text-4xl mb-6">Запишитесь на визит</h2>
+                    <p class="text-stone-400 mb-8 text-lg">
+                        Оставьте свои контакты, и наш администратор свяжется с вами в течение 15 минут для подтверждения записи.
                     </p>
                     
                     <div class="space-y-6">
                         <div class="flex items-start gap-4">
-                            <div class="bg-stone-800 p-3 rounded-lg">
+                            <div class="p-3 bg-stone-800 rounded-lg">
                                 <i data-lucide="map-pin" class="w-6 h-6 text-rose-400"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-lg mb-1">Адрес</h4>
-                                <p class="text-stone-400">ул. Пушкина, д. 10, Москва</p>
+                                <p class="text-stone-400">г. Москва, ул. Большая Дмитровка, 12<br>м. Театральная</p>
                             </div>
                         </div>
                         
                         <div class="flex items-start gap-4">
-                            <div class="bg-stone-800 p-3 rounded-lg">
+                            <div class="p-3 bg-stone-800 rounded-lg">
                                 <i data-lucide="phone" class="w-6 h-6 text-rose-400"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-lg mb-1">Телефон</h4>
-                                <p class="text-stone-400">+7 (999) 123-45-67</p>
+                                <p class="text-stone-400">+7 (999) 123-45-67<br>+7 (495) 123-45-67</p>
                             </div>
                         </div>
-                        
+
                         <div class="flex items-start gap-4">
-                            <div class="bg-stone-800 p-3 rounded-lg">
+                            <div class="p-3 bg-stone-800 rounded-lg">
                                 <i data-lucide="clock" class="w-6 h-6 text-rose-400"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-lg mb-1">Режим работы</h4>
-                                <p class="text-stone-400">Ежедневно: 10:00 - 22:00</p>
+                                <p class="text-stone-400">Ежедневно: 10:00 - 22:00<br>Без выходных</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Booking Form -->
-                <div class="bg-white rounded-2xl p-8 text-stone-800">
-                    <form class="space-y-4" onsubmit="event.preventDefault(); alert('Спасибо! Заявка отправлена.');">
-                        <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-white rounded-2xl p-8 text-stone-800 shadow-2xl">
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
-                                <label class="block text-sm font-medium text-stone-700 mb-1">Имя</label>
-                                <input type="text" class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:border-rose-400 focus:ring-2 focus:ring-rose-100 outline-none transition-all" placeholder="Ваше имя">
+                                <label class="block text-sm font-medium mb-1 ml-1">Имя</label>
+                                <input type="text" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:outline-none focus:border-rose-400 focus:ring-1 focus:ring-rose-400 bg-stone-50 transition-colors">
                             </div>
                             <div>
-                                <label class="block text-sm font-medium text-stone-700 mb-1">Телефон</label>
-                                <input type="tel" class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:border-rose-400 focus:ring-2 focus:ring-rose-100 outline-none transition-all" placeholder="+7 (___) ___-__-__">
+                                <label class="block text-sm font-medium mb-1 ml-1">Телефон</label>
+                                <input type="tel" placeholder="+7 (___) ___-__-__" class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:outline-none focus:border-rose-400 focus:ring-1 focus:ring-rose-400 bg-stone-50 transition-colors">
                             </div>
                         </div>
+                        
                         <div>
-                            <label class="block text-sm font-medium text-stone-700 mb-1">Услуга</label>
-                            <select class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:border-rose-400 focus:ring-2 focus:ring-rose-100 outline-none transition-all bg-white">
-                                <option>Выбрать услугу</option>
-                                <option>Стрижка</option>
-                                <option>Маникюр</option>
+                            <label class="block text-sm font-medium mb-1 ml-1">Услуга</label>
+                            <select class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:outline-none focus:border-rose-400 focus:ring-1 focus:ring-rose-400 bg-stone-50 transition-colors">
+                                <option>Выберите услугу</option>
+                                <option>Стрижка / Укладка</option>
+                                <option>Маникюр / Педикюр</option>
                                 <option>Косметология</option>
-                                <option>Массаж</option>
+                                <option>Массаж / SPA</option>
                             </select>
                         </div>
+
                         <div>
-                            <label class="block text-sm font-medium text-stone-700 mb-1">Комментарий</label>
-                            <textarea rows="3" class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:border-rose-400 focus:ring-2 focus:ring-rose-100 outline-none transition-all" placeholder="Удобное время или пожелания"></textarea>
+                            <label class="block text-sm font-medium mb-1 ml-1">Комментарий (необязательно)</label>
+                            <textarea rows="3" placeholder="Ваши пожелания..." class="w-full px-4 py-3 rounded-lg border border-stone-200 focus:outline-none focus:border-rose-400 focus:ring-1 focus:ring-rose-400 bg-stone-50 transition-colors"></textarea>
                         </div>
-                        <button type="submit" class="w-full bg-stone-900 text-white font-bold py-4 rounded-lg hover:bg-rose-500 transition-colors shadow-lg mt-2">
+
+                        <button type="button" class="w-full bg-stone-900 text-white py-4 rounded-lg font-bold text-lg hover:bg-rose-500 transition-colors shadow-lg mt-2">
                             Записаться
                         </button>
+                        <p class="text-xs text-stone-400 text-center mt-2">
+                            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                        </p>
                     </form>
                 </div>
             </div>
-         </div>
+        </div>
     </section>
 
     <!-- Footer -->
@@ -393,17 +443,28 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center gap-6">
                 <div class="flex items-center gap-2">
-                    <i data-lucide="flower-2" class="w-6 h-6 text-rose-500"></i>
-                    <span class="font-serif text-xl font-bold text-white tracking-wider">AURA</span>
+                    <i data-lucide="flower-2" class="w-6 h-6 text-stone-600"></i>
+                    <span class="font-serif text-xl font-bold text-stone-200 tracking-wider">AURA</span>
                 </div>
                 
-                <div class="flex gap-8 text-sm">
-                    <a href="#" class="hover:text-rose-400 transition-colors">Instagram</a>
-                    <a href="#" class="hover:text-rose-400 transition-colors">Telegram</a>
-                    <a href="#" class="hover:text-rose-400 transition-colors">WhatsApp</a>
+                <div class="flex gap-6 text-sm">
+                    <a href="#" class="hover:text-white transition-colors">Услуги</a>
+                    <a href="#" class="hover:text-white transition-colors">Мастера</a>
+                    <a href="#" class="hover:text-white transition-colors">Прайс-лист</a>
+                    <a href="#" class="hover:text-white transition-colors">Контакты</a>
                 </div>
-                
-                <p class="text-sm">© 2025 Aura Salon. Все права защищены.</p>
+
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full bg-stone-900 flex items-center justify-center hover:bg-rose-500 hover:text-white transition-colors">
+                        <i data-lucide="instagram" class="w-5 h-5"></i>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full bg-stone-900 flex items-center justify-center hover:bg-rose-500 hover:text-white transition-colors">
+                        <i data-lucide="facebook" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-stone-900 text-center text-xs text-stone-600">
+                &copy; 2023 Aura Beauty Salon. Все права защищены.
             </div>
         </div>
     </footer>
